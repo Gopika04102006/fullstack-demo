@@ -6,7 +6,7 @@ function App() {
   const [result, setResult] = useState("");
 
   const handleAdd = async () => {
-    const response = await fetch("http://localhost:3000/add", {
+    const response = await fetch(" https://fullstack-demo-1-ekpv.onrender.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
